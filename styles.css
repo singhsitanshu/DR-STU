@@ -680,4 +680,42 @@
     color: #fff;
 }
 
+/* Apparel */
+
+.apparel {
+  background: #141414;
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150vh;
+}
+
+.apparel__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.apparel__card {
+    margin: 1rem;
+    height: 360px;
+    width: 550px;
+    border-radius: 4px;
+    background-image: url('/dunks/filler.png');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.apparel__card:nth-child(2) {
+  background-image: url('/apparel/filler.png');
+}
+
+.navbar__section {
+    padding: 20px 0px;
+    color: #fff;
+}
+
 /* Footer */
