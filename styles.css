@@ -522,6 +522,18 @@
     background-image: url('/dunks/blueberry_dunks.png'); 
 }
 
+.dunks__card:nth-child(7) {
+    background-image: url('/dunks/filler.png'); 
+}
+
+.dunks__card:nth-child(8) {
+    background-image: url('/dunks/filler.png'); 
+}
+
+.dunks__card:nth-child(9) {
+    background-image: url('/dunks/filler.png'); 
+}
+
 .dunks__card h2 {
     position: absolute;
     top: 350px;
@@ -552,6 +564,20 @@
 .navbar__section {
     padding: 20px 0px;
     color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .dunks {
+        height: 1400px;
+    }
+
+    .dunks h1 {
+        font-size: 1.2rem;
+    }
+
+    .dunks__card {
+        width: 300px;
+    }
 }
 
 /* Jordans */
@@ -624,6 +650,18 @@
     background-image: url('/jordans/hyperroyal.png'); 
 }
 
+.jordans__card:nth-child(7) {
+    background-image: url('/jordans/filler.png'); 
+}
+
+.jordans__card:nth-child(8) {
+    background-image: url('/jordans/filler.png'); 
+}
+
+.jordans__card:nth-child(9) {
+    background-image: url('/jordans/filler.png'); 
+}
+
 .jordans__card h2 {
     position: absolute;
     top: 350px;
@@ -654,6 +692,72 @@
 .navbar__section {
     padding: 20px 0px;
     color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .jordans {
+        height: 1400px;
+    }
+
+    .jordans h1 {
+        font-size: 1.2rem;
+    }
+
+    .jordans__card {
+        width: 300px;
+    }
+}
+
+/* Apparel */
+
+.apparel {
+  background: #141414;
+  background: #141414;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 150vh;
+}
+
+.apparel__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.apparel__card {
+    margin: 1rem;
+    height: 360px;
+    width: 550px;
+    border-radius: 4px;
+    background-image: url('/dunks/filler.png');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.apparel__card:nth-child(2) {
+  background-image: url('/apparel/filler.png');
+}
+
+.navbar__section {
+    padding: 20px 0px;
+    color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .apparel {
+        height: 1400px;
+    }
+
+    .apparel h1 {
+        font-size: 1.2rem;
+    }
+
+    .apparel__card {
+        width: 300px;
+    }
 }
 
 /* Footer */
