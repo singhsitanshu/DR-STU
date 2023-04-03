@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background: #131313;
+    background: #1f1f1f;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -450,6 +450,210 @@
     .services__card {
         width: 300px;
     }
+}
+
+/* dunks Page */
+
+.dunks {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+}
+
+.dunks h1 {
+    background-color: #fff;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.dunks__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.dunks__card {
+    margin: 1rem;
+    height: 360px;
+    width: 550px;
+    border-radius: 4px;
+    background-image: url('/dunks/grey_fog.png');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.dunks__card:nth-child(2) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/philly_dunks.png');
+}
+
+.dunks__card:nth-child(3) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/navy_dunks.png');
+}
+
+.dunks__card:nth-child(4) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/why_so_sad.png');
+}
+
+.dunks__card:nth-child(5) {
+    height: 350px;
+    width: 550px;
+    background-image: url('/dunks/coconut_dunks.png');
+}
+
+.dunks__card:nth-child(6) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/blueberry_dunks.png'); 
+}
+
+.dunks__card h2 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.dunks__card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.dunks__card button {
+    z-index: 2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background: #f77062;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navbar__section {
+    padding: 20px 0px;
+    color: #fff;
+}
+
+/* Jordans */
+
+.jordans {
+    background: #141414;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150vh;
+}
+
+.jordans h1 {
+    background-color: #fff;
+    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-size: 100%;
+    margin-bottom: 5rem;
+    font-size: 2.5rem;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+.jordans__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    top: 0;
+}
+
+.jordans__card {
+    margin: 1rem;
+    height: 360px;
+    width: 550px;
+    border-radius: 4px;
+    background-image: url('/dunks/grey_fog.png');
+    background-size: cover;
+    position: relative;
+    color: #fff;
+}
+
+.jordans__card:nth-child(2) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/philly_dunks.png');
+}
+
+.jordans__card:nth-child(3) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/navy_dunks.png');
+}
+
+.jordans__card:nth-child(4) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/why_so_sad.png');
+}
+
+.jordans__card:nth-child(5) {
+    height: 350px;
+    width: 550px;
+    background-image: url('/dunks/coconut_dunks.png');
+}
+
+.jordans__card:nth-child(6) {
+    height: 360px;
+    width: 550px;
+    background-image: url('/dunks/blueberry_dunks.png'); 
+}
+
+.jordans__card h2 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
+
+.jordans__card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+}
+
+.jordans__card button {
+    z-index: 2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background: #f77062;
+    position: absolute;
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.navbar__section {
+    padding: 20px 0px;
+    color: #fff;
 }
 
 /* Footer */
