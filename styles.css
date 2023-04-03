@@ -522,6 +522,18 @@
     background-image: url('/dunks/blueberry_dunks.png'); 
 }
 
+.dunks__card:nth-child(7) {
+    background-image: url('/dunks/filler.png'); 
+}
+
+.dunks__card:nth-child(8) {
+    background-image: url('/dunks/filler.png'); 
+}
+
+.dunks__card:nth-child(9) {
+    background-image: url('/dunks/filler.png'); 
+}
+
 .dunks__card h2 {
     position: absolute;
     top: 350px;
@@ -622,6 +634,18 @@
     height: 360px;
     width: 550px;
     background-image: url('/jordans/hyperroyal.png'); 
+}
+
+.jordans__card:nth-child(7) {
+    background-image: url('/jordans/filler.png'); 
+}
+
+.jordans__card:nth-child(8) {
+    background-image: url('/jordans/filler.png'); 
+}
+
+.jordans__card:nth-child(9) {
+    background-image: url('/jordans/filler.png'); 
 }
 
 .jordans__card h2 {
