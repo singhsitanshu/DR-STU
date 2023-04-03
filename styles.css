@@ -566,6 +566,20 @@
     color: #fff;
 }
 
+@media screen and (max-width: 480px) {
+    .dunks {
+        height: 1400px;
+    }
+
+    .dunks h1 {
+        font-size: 1.2rem;
+    }
+
+    .dunks__card {
+        width: 300px;
+    }
+}
+
 /* Jordans */
 
 .jordans {
@@ -680,6 +694,20 @@
     color: #fff;
 }
 
+@media screen and (max-width: 480px) {
+    .jordans {
+        height: 1400px;
+    }
+
+    .jordans h1 {
+        font-size: 1.2rem;
+    }
+
+    .jordans__card {
+        width: 300px;
+    }
+}
+
 /* Apparel */
 
 .apparel {
@@ -716,6 +744,20 @@
 .navbar__section {
     padding: 20px 0px;
     color: #fff;
+}
+
+@media screen and (max-width: 480px) {
+    .apparel {
+        height: 1400px;
+    }
+
+    .apparel h1 {
+        font-size: 1.2rem;
+    }
+
+    .apparel__card {
+        width: 300px;
+    }
 }
 
 /* Footer */
