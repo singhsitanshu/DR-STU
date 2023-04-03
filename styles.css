@@ -588,7 +588,7 @@
     height: 360px;
     width: 550px;
     border-radius: 4px;
-    background-image: url('/dunks/grey_fog.png');
+    background-image: url('/jordans/off_white_chicago.png');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -597,31 +597,31 @@
 .jordans__card:nth-child(2) {
     height: 360px;
     width: 550px;
-    background-image: url('/dunks/philly_dunks.png');
+    background-image: url('/jordans/inside_out_craft.png');
 }
 
 .jordans__card:nth-child(3) {
     height: 360px;
     width: 550px;
-    background-image: url('/dunks/navy_dunks.png');
+    background-image: url('/jordans/fragment_high.png');
 }
 
 .jordans__card:nth-child(4) {
     height: 360px;
     width: 550px;
-    background-image: url('/dunks/why_so_sad.png');
+    background-image: url('/jordans/reverse_mocha.png');
 }
 
 .jordans__card:nth-child(5) {
     height: 350px;
     width: 550px;
-    background-image: url('/dunks/coconut_dunks.png');
+    background-image: url('/jordans/taxi.png');
 }
 
 .jordans__card:nth-child(6) {
     height: 360px;
     width: 550px;
-    background-image: url('/dunks/blueberry_dunks.png'); 
+    background-image: url('/jordans/hyperroyal.png'); 
 }
 
 .jordans__card h2 {
