@@ -5,6 +5,58 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+body {
+    background: #191919;
+}
+
+.gallery {
+    width: 1300px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.gallery div {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div img {
+    width: 100%;
+    transition: 0.25s ease-in-out;
+}
+
+.gallery {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    overflow: -moz-scrollbars-none; /* Firefox */
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+#backBtn, #nextBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.gallery div img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
 .navbar {
     background: #1f1f1f;
     height: 80px;
