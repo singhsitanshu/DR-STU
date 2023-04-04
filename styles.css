@@ -15,7 +15,7 @@
 .gallery div {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(12, auto);
     grid-gap: 20px;
     padding: 10px;
     flex: none;
@@ -640,9 +640,9 @@
     height: 235vh;
 }
 
-.jordans h1 {
+.navbar__section h1 {
     background-color: #fff;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to top, #b721ff 0%, #21d4fd 100%);
     background-size: 100%;
     margin-bottom: 5rem;
     font-size: 2.5rem;
@@ -701,15 +701,15 @@
 }
 
 .jordans__card:nth-child(7) {
-    background-image: url('/jordans/filler.png'); 
+    background-image: url('/jordans/off-white_4s.png'); 
 }
 
 .jordans__card:nth-child(8) {
-    background-image: url('/jordans/filler.png'); 
+    background-image: url('/jordans/craft_4s.png'); 
 }
 
 .jordans__card:nth-child(9) {
-    background-image: url('/jordans/filler.png'); 
+    background-image: url('/jordans/oreo_4s.png'); 
 }
 
 .jordans__card h2 {
