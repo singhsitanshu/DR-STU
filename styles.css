@@ -7,7 +7,7 @@
 
 .gallery {
     /* grid-auto-flow: column; */
-    width: 700px;
+    width: 653px;
     display: flex;
     overflow-x: scroll;
 }

@@ -18,10 +18,10 @@ let scrollContainer = document.querySelector(".gallery");
 
     nextBtn.addEventListener("click", ()=> {
         scrollContainer.style.scrollBehavior = "smooth";
-        scrollContainer.scrollLeft += 623; // adjust this value as needed
+        scrollContainer.scrollLeft += 645; // adjust this value as needed
     });
     
     backBtn.addEventListener("click", ()=> {
         scrollContainer.style.scrollBehavior = "smooth";
-        scrollContainer.scrollLeft -= 623; // adjust this value as needed
+        scrollContainer.scrollLeft -= 645; // adjust this value as needed
     });    
