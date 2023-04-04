@@ -8,7 +8,7 @@ menu.addEventListener('click', function() {
 
 let scrollContainer = document.querySelector(".gallery");
     let backBtn = document.getElementById("backBtn");
-    let nextkBtn = document.getElementById("nextBtn");
+    let nextBtn = document.getElementById("nextBtn");
 
     scrollContainer.addEventListener("wheel", (evt) => {
         evt.preventDefault();
@@ -18,10 +18,10 @@ let scrollContainer = document.querySelector(".gallery");
 
     nextBtn.addEventListener("click", ()=> {
         scrollContainer.style.scrollBehavior = "smooth";
-        scrollContainer.scrollLeft += 300;
-    })
-
+        scrollContainer.scrollLeft += 675; // adjust this value as needed
+    });
+    
     backBtn.addEventListener("click", ()=> {
         scrollContainer.style.scrollBehavior = "smooth";
-        scrollContainer.scrollLeft -= 300;
-    })
+        scrollContainer.scrollLeft -= 675; // adjust this value as needed
+    });    

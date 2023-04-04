@@ -5,12 +5,9 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-body {
-    background: #191919;
-}
-
 .gallery {
-    width: 1300px;
+    /* grid-auto-flow: column; */
+    width: 700px;
     display: flex;
     overflow-x: scroll;
 }
@@ -18,14 +15,15 @@ body {
 .gallery div {
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: repeat(6, auto);
     grid-gap: 20px;
     padding: 10px;
     flex: none;
 }
 
 .gallery div img {
-    width: 100%;
+    width: 620x;
+    height: 410px;
     transition: 0.25s ease-in-out;
 }
 
