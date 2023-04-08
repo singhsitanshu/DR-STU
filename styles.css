@@ -832,7 +832,7 @@
     top: 440px;
     left: 30px;
     font-size: 1rem;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .navbar__section {
@@ -929,9 +929,10 @@
 /* Details */
 
 .details {
-    background: #141414;
     display: flex;
     height: 95vh;
+    background-color: #141414;
+    width: 100%;
 }
 
 .details__container {
@@ -942,14 +943,35 @@
 }
 
 .details__card {
-    margin: 1rem;
+    margin: 2rem;
     height: 500px;
     width: 800px;
     border-radius: 4px;
     background-image: url('/dunks/philly_dunks.png');
     background-size: cover;
-    position: relative;
     color: #fff;
+}
+
+.details__card h2 {
+    font-size: 2rem;
+    align-items: right;
+    position: absolute;
+    top: 423px;
+    left: 900px;
+}
+
+.details__card p {
+    align-items: right;
+    position: absolute;
+    top: 470px;
+    left: 900px;
+}
+
+.details__card h3 {
+    align-items: right;
+    position: absolute;
+    top: 495px;
+    left: 900px;
 }
 
 /* Footer */
