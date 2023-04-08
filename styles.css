@@ -87,6 +87,70 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .gallery {
+        /* grid-auto-flow: column; */
+        width: 311.5px;
+        display: flex;
+        overflow-x: scroll;
+    }
+    
+    .gallery div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, auto);
+        grid-gap: 20px;
+        padding: 10px;
+        flex: none;
+    }
+
+    .gallery div img {
+        width: 311.5px;
+        height: 200.5px;
+        transition: 0.25s ease-in-out;
+    }
+
+    #backBtn, #nextBtn {
+        display: none;
+        bottom: 100%;
+        width: 50px;
+        cursor: pointer;
+        margin: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .gallery {
+        /* grid-auto-flow: column; */
+        width: 311.5px;
+        display: flex;
+        overflow-x: scroll;
+    }
+    
+    .gallery div {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(12, auto);
+        grid-gap: 20px;
+        padding: 10px;
+        flex: none;
+    }
+
+    .gallery div img {
+        width: 311.5px;
+        height: 200.5px;
+        transition: 0.25s ease-in-out;
+    }
+
+    #backBtn, #nextBtn {
+        display: none;
+        bottom: 100%;
+        width: 50px;
+        cursor: pointer;
+        margin: 40px;
+    }
+}
+
 .navbar {
     background: #1f1f1f;
     height: 80px;
