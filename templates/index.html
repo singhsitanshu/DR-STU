@@ -17,7 +17,7 @@
 <body>
   <nav class="navbar">
     <div class="navbar__container">
-      <a href="/" id="navbar__logo"> <img src="images/sneakers.png"> &nbspDR STU</a>
+      <a href="/" id="navbar__logo"> <img src="/static/images/sneakers.png"> &nbspDR STU</a>
       <div class="navbar__toggle" id="mobile-menu">
         <span class="bar"></span>
         <span class="bar"></span>
@@ -25,13 +25,13 @@
       </div>
       <ul class="navbar__menu">
         <li class="navbar__item">
-          <a href="{{url_for(app.apparel)}}" class="navbar__links"> <i class="fa-solid fa-shirt"></i> &nbspApparel</a>
+          <a href= "{{url_for('apparel')}}" class="navbar__links"> <i class="fa-solid fa-shirt"></i> &nbspApparel</a>
         </li>
         <li class="navbar__item">
-          <a href="{{url_for(app.jordans)}}" class="navbar__links"> <img src="static/images/jordan.png"> &nbspJordan</a>
+          <a href="{{url_for('jordans')}}" class="navbar__links"> <img src="static/images/jordan.png"> &nbspJordan</a>
         </li>
         <li class="navbar__item">
-          <a href="{{url_for(app.dunks)}}" class="navbar__links"> <img src="static/images/nike.png"> &nbspDunks</a>
+          <a href="{{url_for('dunks')}}" class="navbar__links"> <img src="static/images/nike.png"> &nbspDunks</a>
         </li>
         <li class="navbar__btn">
           <a href="/" class="button">Order Now</a>
