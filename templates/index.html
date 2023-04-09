@@ -25,13 +25,13 @@
       </div>
       <ul class="navbar__menu">
         <li class="navbar__item">
-          <a href="/apparel.html" class="navbar__links"> <i class="fa-solid fa-shirt"></i> &nbspApparel</a>
+          <a href="{{url_for(app.apparel)}}" class="navbar__links"> <i class="fa-solid fa-shirt"></i> &nbspApparel</a>
         </li>
         <li class="navbar__item">
-          <a href="/jordans.html" class="navbar__links"> <img src="static/images/jordan.png"> &nbspJordan</a>
+          <a href="{{url_for(app.jordans)}}" class="navbar__links"> <img src="static/images/jordan.png"> &nbspJordan</a>
         </li>
         <li class="navbar__item">
-          <a href="/dunks.html" class="navbar__links"> <img src="static/images/nike.png"> &nbspDunks</a>
+          <a href="{{url_for(app.dunks)}}" class="navbar__links"> <img src="static/images/nike.png"> &nbspDunks</a>
         </li>
         <li class="navbar__btn">
           <a href="/" class="button">Order Now</a>
