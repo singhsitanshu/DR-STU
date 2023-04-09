@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__, static_folder="./static")
 
@@ -9,7 +9,7 @@ products = [
 
 @app.route('/')
 def index():
-    return app.send_static_file('html/index.html')
+    return render_template('index.html', css_file=url_for('static', filename='css/styles.css'))
            
 @app.route('/details-page')
 def details_page():
