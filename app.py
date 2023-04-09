@@ -7,8 +7,8 @@ products = [
     {'name': '', 'price': '', 'img': '', 'desc': ''}
 ]
 
-@app.route('/')
-def index():
+@app.route('/details-page')
+def details_page():
     return render_template('details.html', products=products)
 
 if __name__ == "__main__":

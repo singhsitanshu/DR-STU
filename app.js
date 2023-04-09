@@ -6,6 +6,10 @@ menu.addEventListener('click', function() {
     menuLinks.classList.toggle('active');
 });
 
+function redirectToNewPage() {
+    window.location.href = "/details-page";
+    }
+
 let scrollContainer = document.querySelector(".gallery");
     let backBtn = document.getElementById("backBtn");
     let nextBtn = document.getElementById("nextBtn");
