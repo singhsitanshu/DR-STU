@@ -9,7 +9,7 @@ products = [
 
 @app.route('/')
 def index():
-    return render_template('html/index.html')
+    return app.send_static_file('html/index.html')
            
 @app.route('/details-page')
 def details_page():
