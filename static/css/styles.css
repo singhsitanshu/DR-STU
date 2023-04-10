@@ -632,7 +632,7 @@
     height: 360px;
     width: 550px;
     border-radius: 4px;
-    background-image: url('static/dunks/grey_fog.png');
+    background-image: url('/static/dunks/grey_fog.png');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -641,43 +641,43 @@
 .dunks__card:nth-child(2) {
     height: 360px;
     width: 550px;
-    background-image: url('static/dunks/philly_dunks.png');
+    background-image: url('/static/dunks/philly_dunks.png');
 }
 
 .dunks__card:nth-child(3) {
     height: 360px;
     width: 550px;
-    background-image: url('static/dunks/navy_dunks.png');
+    background-image: url('/static/dunks/navy_dunks.png');
 }
 
 .dunks__card:nth-child(4) {
     height: 360px;
     width: 550px;
-    background-image: url('static/dunks/why_so_sad.png');
+    background-image: url('/static/dunks/why_so_sad.png');
 }
 
 .dunks__card:nth-child(5) {
     height: 350px;
     width: 550px;
-    background-image: url('static/dunks/coconut_dunks.png');
+    background-image: url('/static/dunks/coconut_dunks.png');
 }
 
 .dunks__card:nth-child(6) {
     height: 360px;
     width: 550px;
-    background-image: url('static/dunks/blueberry_dunks.png'); 
+    background-image: url('/static/dunks/blueberry_dunks.png'); 
 }
 
 .dunks__card:nth-child(7) {
-    background-image: url('static/dunks/filler.png'); 
+    background-image: url('/static/dunks/filler.png'); 
 }
 
 .dunks__card:nth-child(8) {
-    background-image: url('static/dunks/filler.png'); 
+    background-image: url('/static/dunks/filler.png'); 
 }
 
 .dunks__card:nth-child(9) {
-    background-image: url('static/dunks/filler.png'); 
+    background-image: url('/static/dunks/filler.png'); 
 }
 
 .dunks__card h2 {
@@ -760,7 +760,7 @@
     height: 360px;
     width: 550px;
     border-radius: 4px;
-    background-image: url('static/jordans/off_white_chicago.png');
+    background-image: url('/static/jordans/off_white_chicago.png');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -769,43 +769,43 @@
 .jordans__card:nth-child(2) {
     height: 360px;
     width: 550px;
-    background-image: url('static/jordans/inside_out_craft.png');
+    background-image: url('/static/jordans/inside_out_craft.png');
 }
 
 .jordans__card:nth-child(3) {
     height: 360px;
     width: 550px;
-    background-image: url('static/jordans/fragment_high.png');
+    background-image: url('/static/jordans/fragment_high.png');
 }
 
 .jordans__card:nth-child(4) {
     height: 360px;
     width: 550px;
-    background-image: url('static/jordans/reverse_mocha.png');
+    background-image: url('/static/jordans/reverse_mocha.png');
 }
 
 .jordans__card:nth-child(5) {
     height: 350px;
     width: 550px;
-    background-image: url('static/jordans/taxi.png');
+    background-image: url('/static/jordans/taxi.png');
 }
 
 .jordans__card:nth-child(6) {
     height: 360px;
     width: 550px;
-    background-image: url('static/jordans/hyperroyal.png'); 
+    background-image: url('/static/jordans/hyperroyal.png'); 
 }
 
 .jordans__card:nth-child(7) {
-    background-image: url('static/jordans/off-white_4s.png'); 
+    background-image: url('/static/jordans/off-white_4s.png'); 
 }
 
 .jordans__card:nth-child(8) {
-    background-image: url('static/jordans/craft_4s.png'); 
+    background-image: url('/static/jordans/craft_4s.png'); 
 }
 
 .jordans__card:nth-child(9) {
-    background-image: url('static/jordans/oreo_4s.png'); 
+    background-image: url('/static/jordans/oreo_4s.png'); 
 }
 
 .jordans__card h2 {
@@ -876,7 +876,7 @@
     height: 300px;
     width: 400px;
     border-radius: 4px;
-    background-image: url('static/apparel/shirts/jw_vlone.png');
+    background-image: url('/static/apparel/shirts/jw_vlone.png');
     background-size: cover;
     position: relative;
     color: #fff;
@@ -885,11 +885,11 @@
 .apparel__card:nth-child(2) {
     height: 300px;
     width: 300px;
-  background-image: url('static/apparel/shirts/mew_tee.png');
+  background-image: url('/static/apparel/shirts/mew_tee.png');
 }
 
 .apparel__card:nth-child(3) {
-    background-image: url('static/apparel/shirts/playboy_bunny.png');
+    background-image: url('/static/apparel/shirts/playboy_bunny.png');
   }
 
 .apparel__card p {
@@ -947,7 +947,7 @@
     height: 500px;
     width: 800px;
     border-radius: 4px;
-    background-image: url('static/dunks/philly_dunks.png');
+    background-image: url('/static/dunks/philly_dunks.png');
     background-size: cover;
     color: #fff;
 }
