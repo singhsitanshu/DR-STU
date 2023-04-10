@@ -26,7 +26,7 @@ def jordans():
            
 # @app.route('/details-page')
 # def details_page():
-#     return render_template('html/details.html', products=products)
+#     return render_template('details.html', products=products)
 
 if __name__ == "__main__":
     app.run()
