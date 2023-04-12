@@ -873,8 +873,8 @@
 
 .apparel__card {
     margin: 1rem;
-    height: 300px;
-    width: 400px;
+    height: 350px;
+    width: 500px;
     border-radius: 4px;
     background-image: url('/static/apparel/shirts/jw_vlone.png');
     background-size: cover;
@@ -882,15 +882,22 @@
     color: #fff;
 }
 
+
 .apparel__card:nth-child(2) {
     height: 300px;
     width: 300px;
-  background-image: url('/static/apparel/shirts/mew_tee.png');
+    background-image: url('/static/apparel/shirts/mew_tee.png');
 }
 
 .apparel__card:nth-child(3) {
     background-image: url('/static/apparel/shirts/playboy_bunny.png');
   }
+
+.apparel__card h2 {
+    position: absolute;
+    top: 350px;
+    left: 30px;
+}
 
 .apparel__card p {
     position: absolute;
