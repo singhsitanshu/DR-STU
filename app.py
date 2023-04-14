@@ -31,6 +31,15 @@ products = [
     {'name' : 'Blueberry Dunks', 'price' : '35.99', 'img' : '/static/dunks/blueberry_dunks.png', 'desc' : 'A part of Nike’s 2022 sneaker releases, this shoe features a leather upper with a crisp white base and light thistle overlays on its forefoot and heels. The upper’s look is completed by darker hits of lapis on the shoe’s Swoosh, laces, and heel tab embroidered with Nike branding. This colorway rests on a rubber cupsole with a foam wedge for cushioning and a rubber outsole, which features a traction pattern for improved grip. '}
     ]
     #jordans list
+  {'name' : 'Off-White Chicago Jordan One', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : 'Craft SE Inside Out Jordan One Low', 'price' : '', 'img' : '', 'desc' : ' The Air Jordan 1 Low Inside Out Black, designed by Peter Moore, is a deconstruction of the White/Sail Inside Out Air Jordan 1 Low. This is made of a mix of suede and leather with tonal black and grey hues in the different panels. The sneaker remixes the upper overlays into underlays while bringing out more detail in the leather toebox on top of the suede toecap. They have a retro vibe in the "Sail" and grey-sole piece with forthright single-stitched ‘23’ branding on the Swoosh and the Jordan branding on the shoe heel and tongue. '} 
+  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
  ]
            
 @app.route('/details/<int:section>/<int:index>')
