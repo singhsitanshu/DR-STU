@@ -895,8 +895,8 @@
 
 .apparel__card h2 {
     position: absolute;
-    top: 350px;
-    left: 30px;
+    top: 3000px;
+    left: 300px;
 }
 
 .apparel__card p {
@@ -954,7 +954,6 @@
     height: 500px;
     width: 800px;
     border-radius: 4px;
-    background-image: url('/static/dunks/philly_dunks.png');
     background-size: cover;
     color: #fff;
 }
