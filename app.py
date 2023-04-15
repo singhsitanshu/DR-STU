@@ -33,13 +33,13 @@ products = [
     #jordans list
   {'name' : 'Off-White Chicago Jordan One', 'price' : '', 'img' : '', 'desc' : ''} 
   {'name' : 'Craft SE Inside Out Jordan One Low', 'price' : '', 'img' : '', 'desc' : ' The Air Jordan 1 Low Inside Out Black, designed by Peter Moore, is a deconstruction of the White/Sail Inside Out Air Jordan 1 Low. This is made of a mix of suede and leather with tonal black and grey hues in the different panels. The sneaker remixes the upper overlays into underlays while bringing out more detail in the leather toebox on top of the suede toecap. They have a retro vibe in the "Sail" and grey-sole piece with forthright single-stitched ‘23’ branding on the Swoosh and the Jordan branding on the shoe heel and tongue. '} 
-  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
-  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
-  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
-  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
-  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
-  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
-  {'name' : '', 'price' : '', 'img' : '', 'desc' : ''} 
+  {'name' : 'Fragment x Travis Scott x Air Jordan 1 High', 'price' : '35.99', 'img' : '', 'desc' : ''} 
+  {'name' : 'Reverse Mocha Jordan 1 Low', 'price' : '35.99', 'img' : '', 'desc' : ''} 
+  {'name' : 'Taxi Jordan One High', 'price' : '35.99', 'img' : '', 'desc' : ''} 
+  {'name' : 'Hyperroyal Jordan 1 High', 'price' : '35.99', 'img' : '', 'desc' : ''} 
+  {'name' : 'Off-White Jordan Fours<', 'price' : '35.99', 'img' : '', 'desc' : ''} 
+  {'name' : 'Craft Jordan Fours', 'price' : '35.99', 'img' : '', 'desc' : ''} 
+  {'name' : 'White Oreo Jordan Fours', 'price' : '35.99', 'img' : '', 'desc' : ''} 
  ]
            
 @app.route('/details/<int:section>/<int:index>')
