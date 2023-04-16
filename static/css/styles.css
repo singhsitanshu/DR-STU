@@ -980,4 +980,28 @@
     left: 900px;
 }
 
+.improved_details {
+    background-color: #131313;
+    height: 100vh;
+}
+.small-img-group {
+    display: flex;
+    justify-content: left;
+    padding: 3px;
+    
+}
+
+.small-img-col {
+    flex-basis: 6.5%;
+    cursor: pointer;
+}
+
+.img-fluid {
+    padding: 10px;
+    margin-top: 70px;
+}
+
+.details_text {
+    color: #fff;
+}
 /* Footer */

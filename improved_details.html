@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <title>Improved Details</title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar__container">
+          <a href="/" id="navbar__logo"> <img src="/static/images/sneakers.png"> &nbspDR STU</a>
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href= "{{url_for('apparel')}}" class="navbar__links"> <i class="fa-solid fa-shirt"></i> &nbspApparel</a>
+            </li>
+            <li class="navbar__item">
+              <a href="{{url_for('jordans')}}" class="navbar__links"> <img src="static/images/jordan.png"> &nbspJordan</a>
+            </li>
+            <li class="navbar__item">
+              <a href="{{url_for('dunks')}}" class="navbar__links"> <img src="static/images/nike.png"> &nbspDunks</a>
+            </li>
+            <li class="navbar__btn">
+              <a href="/" class="button">Order Now</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+    <section class="container improved_details my-5 pt-5">
+        <div class = "row mt-5">
+            <div class="col-lg-5 col-md-12 col-12">
+                <img class="img-fluid w-100 pb-1" src="/static/dunks/navy_dunks.png" id="main-img" alt="">
+
+                <div class="small-img-group">
+                    <div class="small-img-col">
+                      <img src="navydunkdetail/navy_dunks.png" width="100%"" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="navydunkdetail/ipad_nike-dunk-low-vintage-navy-1.jpeg" width="100%"" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="navydunkdetail/ipad_nike-dunk-low-vintage-navy-3.jpeg" width="100%"" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="navydunkdetail/ipad_nike-dunk-low-vintage-navy-4.jpeg" width="100%"" class="small-img" alt="">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="navydunkdetail/ipad_nike-dunk-low-vintage-navy-5.jpeg" width="100%"" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="details_text">
+                <h6>Dunks / Navy Dunks</h6>
+                <h3>Dunks</h3>
+                <h2>$35.99</h2>
+                <select class="my-3">
+                    <option>Select Size</option>
+                    <option>US 5W</option>
+                    <option>US 5.5W</option>
+                    <option>US 6W</option>
+                    <option>US 6.5W</option>
+                    <option>US 7W</option>
+                    <option>US 7.5W</option>
+                    <option>US 8W</option>
+                    <option>US 8.5W</option>
+                    <option>US 9W</option>
+                    <option>US 9.5W</option>
+                    <option>US 10W</option>
+                    <option>US 10.5W</option>
+                    <option>US 11W</option>
+                    <option>US 11.5W</option>
+                    <option>US 12W</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        var MainImg = document.getElementById('main-img');
+        var smallimg = document.getElementsByClassName('small-img');
+
+        smallimg[0].onclick = function() {
+          MainImg.src = smallimg[0].src;
+        }
+        smallimg[1].onclick = function() {
+          MainImg.src = smallimg[1].src;
+        }
+        smallimg[2].onclick = function() {
+          MainImg.src = smallimg[2].src;
+        }
+        smallimg[3].onclick = function() {
+          MainImg.src = smallimg[3].src;
+        }
+        smallimg[4].onclick = function() {
+          MainImg.src = smallimg[4].src;
+        }
+    </script>
+</body>
+</html>
