@@ -998,7 +998,7 @@
 }
 
 .small-img-col {
-    flex-basis: 6.5%;
+    flex-basis: 15%;
     cursor: pointer;
 }
 
