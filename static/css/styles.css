@@ -981,14 +981,23 @@
 }
 
 .improved_details {
+    display: flex;
+    flex-direction: row-reverse; /* change direction */
+    justify-content: space-between;
     background-color: #131313;
     height: 100vh;
 }
+
+.img__container {
+    width: 50%;
+    order: 2; /* change order */
+}
+
 .small-img-group {
     display: flex;
     justify-content: left;
     padding: 3px;
-    
+    margin-top: 70px; /* move up */
 }
 
 .small-img-col {
@@ -998,10 +1007,12 @@
 
 .img-fluid {
     padding: 10px;
-    margin-top: 70px;
 }
 
 .details_text {
     color: #fff;
+    width: 40%;
+    order: 1; /* change order */
 }
+
 /* Footer */
