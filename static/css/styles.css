@@ -987,6 +987,9 @@
 }
 
 .img__container {
+    position: absolute;
+    top: 270px;
+    left: 150px;
     width: 50%;
 }
 
