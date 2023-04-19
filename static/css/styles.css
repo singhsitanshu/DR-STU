@@ -647,7 +647,7 @@
 .dunks__card:nth-child(3) {
     height: 360px;
     width: 550px;
-    background-image: url('/static/dunks/navy_dunks.png');
+    background-image: url('/static/dunks/navy_dunks/navy_dunks.png');
 }
 
 .dunks__card:nth-child(4) {
