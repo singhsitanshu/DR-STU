@@ -935,51 +935,6 @@
 
 /* Details */
 
-.details {
-    display: flex;
-    height: 95vh;
-    background-color: #141414;
-    width: 100%;
-}
-
-.details__container {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    top: 0;
-}
-
-.details__card {
-    margin: 2rem;
-    height: 500px;
-    width: 800px;
-    border-radius: 4px;
-    background-size: cover;
-    color: #fff;
-}
-
-.details__card h2 {
-    font-size: 2rem;
-    align-items: right;
-    position: absolute;
-    top: 423px;
-    left: 900px;
-}
-
-.details__card p {
-    align-items: right;
-    position: absolute;
-    top: 470px;
-    left: 900px;
-}
-
-.details__card h3 {
-    align-items: right;
-    position: absolute;
-    top: 495px;
-    left: 900px;
-}
-
 .improved_details {
     display: flex;
     background-color: #131313;
@@ -1035,5 +990,37 @@
     padding: 3px;
     margin-bottom: 5px;
 }
+
+.details_text select {
+    display: block;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    border: 1px solid #8080;
+    border-radius: 5px;
+    background-color: #f77062;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+  
+  .details_text select:hover {
+    outline: none;
+    border-color: #8b0000;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .details_text select option {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    color: #f77062;
+  }
+  
+  .details_text select option:hover {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    color: #8b0000;
+  }
 
 /* Footer */
