@@ -641,7 +641,7 @@
 .dunks__card:nth-child(2) {
     height: 360px;
     width: 550px;
-    background-image: url('/static/dunks/philly_dunks.png');
+    background-image: url('/static/dunks/philly_dunks/philly_dunks.png');
 }
 
 .dunks__card:nth-child(3) {
